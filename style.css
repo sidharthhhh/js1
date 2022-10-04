@@ -1,0 +1,38 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body {
+height: 100%;
+width: 100%;
+}
+#main{
+    font-family: DELIRIUM NCV;
+   }
+.heading{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+ h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30vw;
+    color: transparent;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width:7px ;
+}
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+}
